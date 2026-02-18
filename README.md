@@ -20,3 +20,16 @@ Comprendre et appliquer les bonnes pratiques de sécurisation d’un serveur.
 - Machine virtuelle (VirtualBox)
 
 Ce projet est réalisé dans un objectif pédagogique pour renforcer mes compétences en cybersécurité.
+
+---
+
+## 1. Sécurisation SSH
+
+Édition du fichier de configuration :
+
+```bash
+sudo nano /etc/ssh/sshd_config
+
+## Tests réalisés
+
+Les mesures de sécurité ont été testées depuis une machine Kali Linux dans un environnement virtuel isolé.
